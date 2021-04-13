@@ -3,6 +3,11 @@
 
 * {
 	box-sizing: border-box;
+	
+}
+
+body, input, textarea {
+    font-family: 'Titillium Web', sans-serif !important;
 }
 
 body {
@@ -240,6 +245,7 @@ footer {
 
 footer p {
     margin: 10px 0;
+	
 }
 
 footer i {
@@ -250,3 +256,12 @@ footer a {
     color: #3c97bf;
     text-decoration: none;
 }   
+.end{
+	position:absolute;
+	font-size: 8px;
+	/* opacity: 0; */
+	right: 10px;
+}
+.end a{
+	font-size: 8px;
+}
