@@ -107,4 +107,10 @@ button{
     background-color:#fff;
     color:#333;
     border: 1px solid ;
+    height: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 18px 18px 0px 18px;
+    padding: 10px;
+    
 }
