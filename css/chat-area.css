@@ -67,19 +67,50 @@ button{
     font-family: 'Titillium Web', sans-serif;
     /* font-weight: bold; */
 }
+/* Chats */
 
 .chats{
     margin-top:-10px;
-    display: flex;
-    /* background-color:red; */
     height: 520px;
-    
+    padding: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
-.chat-box .send-text{
-    background-color:rgb(108, 233, 97);
-    cursor: pointer;
+
+
+
+
+/* Scroll Bars */
+div::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
 }
+div::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+div::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #D62929;
+}
+
+::-webkit-scrollbar
+{
+	width: 0px;
+	
+}
+/* Scroll Bars */
+
+/* Chats */
+
+/* Footer */
 
 .chat-box input{
     margin-left: 5px;
@@ -102,15 +133,9 @@ button{
     font-size: 20px;
   }
 
-
-.chats .outgoing{
-    background-color:#fff;
-    color:#333;
-    border: 1px solid ;
-    height: 20px;
-    background-color: #333;
-    color: #fff;
-    border-radius: 18px 18px 0px 18px;
-    padding: 10px;
-    
+  .chat-box .send-text{
+    background-color:rgb(108, 233, 97);
+    cursor: pointer;
 }
+
+/* Footer */
