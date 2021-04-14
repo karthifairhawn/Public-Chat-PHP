@@ -79,6 +79,46 @@ button{
 
 
 
+.chats .outgoing{
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    min-width: 10px;
+    background-color:#fff;
+    color:#333;
+    border: 1px solid ;
+    background-color: #333;
+    color: #fff;
+    border-radius: 18px 18px 0px 18px;
+    padding: 10px;
+    max-width: calc(100% - 65%);
+    margin:7px;
+    margin-left: auto;
+}
+
+
+.chats .incoming{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color:#fff;
+    color:#333;
+    border: 1px solid ;
+    height: auto;
+    background-color: #333;
+    color: #fff;
+    border-radius: 18px 18px 18px 0px;
+    padding: 10px; 
+    max-width: calc(100% - 65%);
+    margin:7px;
+    margin-right:auto;
+    
+}
+
+.chats .incoming .chat-user-name{
+
+}
+
 
 
 /* Scroll Bars */
@@ -101,10 +141,10 @@ div::-webkit-scrollbar-thumb
 	background-color: #D62929;
 }
 
-::-webkit-scrollbar
+div::-webkit-scrollbar
 {
-	width: 0px;
-	
+	width: 12px;
+	background-color: #F5F5F5;
 }
 /* Scroll Bars */
 
