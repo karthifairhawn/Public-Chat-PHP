@@ -18,6 +18,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
+    overflow: hidden;
 	
 }
 
@@ -42,9 +43,9 @@ body{
 
 }
 
-button{
+.header button{
     padding: 15px;    
-    background-color: rgb(245, 21, 21);
+    background:linear-gradient(to right, #FF4B2B, #FF416C);
     border-radius: 50px;
     color:#fff;
     font-size: 14px;
@@ -130,6 +131,7 @@ button{
     margin-top: 5px;
     border: 1px solid ;
     border-radius: 10px;
+    margin-left: auto;
 }
 
 
@@ -193,9 +195,23 @@ div::-webkit-scrollbar
     font-size: 20px;
   }
 
-  .chat-box .send-text{
-    background-color:rgb(108, 233, 97);
+.chat-box .send-text{
+    padding: 15px;    
+    border-radius: 50px;
+    color:#fff;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid;
+    outline: none;
+    transition: background-color 1000ms;
     cursor: pointer;
+    background:linear-gradient(to right, #FF4B2B, #FF416C);
+}
+
+.chat-box .send-text:hover{
+    background:rgb(108, 233, 97);
+    transition: background-color 1000ms;
+    
 }
 
 /* Footer */
