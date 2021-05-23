@@ -1,3 +1,16 @@
+<?php
+session_start();
+
+include 'php/conn.php';
+$user_id = $_SESSION['user_id'];
+$name = mysqli_query($conn, "Select name from user_info where user_id=$user_id");
+$name = mysqli_fetch_assoc($name);
+$name =$name['name'];
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +30,7 @@
         <div class="header">
             <div class="left">
                 <img src="img/img2.jpeg">
-                <span class="name">Karthi Fair Hawn</span>
+                <span class="name"><?php echo $name ?></span>
             </div>
             <div class="right">
                 <button class="delete-acct-btn">DELETE ACCOUNT</button>
