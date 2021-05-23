@@ -22,6 +22,7 @@ $name =$name['name'];
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
     <div class="content">
@@ -34,7 +35,7 @@ $name =$name['name'];
             </div>
             <div class="right">
                 <button class="delete-acct-btn">DELETE ACCOUNT</button>
-                <button class="logout-btn">LOGOUT</button>
+                <a href="php/logout.php"><button class="logout-btn">LOGOUT</button></a>
             </div>
         </div>
         <!-- Header Ends -->
@@ -100,13 +101,15 @@ $name =$name['name'];
 
         <!-- Chat Box -->
         <div class="chat-box">
-            <input type="text" placeholder="Enter message to send...">
-            <button class="send-text" ><i class="fa fa-paper-plane" aria-hidden="true"></i>
-                <spam>SEND</spam>
+            <input id="msg-input" type="text" placeholder="Enter message to send...">
+            <button class="send-text" id="send-btn"><i class="fa fa-paper-plane" aria-hidden="true"></i>
+                <span>SEND</span>
             </button>
         </div>
         <!-- Chat Box Ends-->
 
     </div>
+    <script src="js/chat/new_chat.js"></script>
+
 </body>
 </html>

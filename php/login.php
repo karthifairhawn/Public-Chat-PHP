@@ -9,9 +9,9 @@ include 'conn.php';
 
 if(isset($_POST['name'])){
     $user_id =rand(0,100000);
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $password = $_POST['password'];
+    $name = mysql_real_escape_string($_POST['name']);
+    $email = mysql_real_escape_string($_POST['email']);
+    $password = mysql_real_escape_string($_POST['password']);
     $duplicate = false;
 
     $check_duplicate = mysqli_query($conn,"Select email from user_info");

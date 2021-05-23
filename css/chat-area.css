@@ -45,7 +45,7 @@ body{
 
 .header button{
     padding: 15px;    
-    background:linear-gradient(to right, #FF4B2B, #FF416C);
+    background-color: #535353;
     border-radius: 50px;
     color:#fff;
     font-size: 14px;
@@ -153,7 +153,8 @@ div::-webkit-scrollbar-thumb
 {
 	border-radius: 10px;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #D62929;
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
 }
 
 div::-webkit-scrollbar
@@ -176,8 +177,8 @@ div::-webkit-scrollbar
 }
 
 .chat-box{
-    background-color:#333;
-    opacity: 0.8;
+    background-color: #5b6467;
+    background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
     padding: 10px;
     border-radius: 0px 0px 10px 10px;
 }
@@ -205,13 +206,9 @@ div::-webkit-scrollbar
     outline: none;
     transition: background-color 1000ms;
     cursor: pointer;
-    background:linear-gradient(to right, #FF4B2B, #FF416C);
+    background-color: #535353;
 }
 
-.chat-box .send-text:hover{
-    background:rgb(108, 233, 97);
-    transition: background-color 1000ms;
-    
-}
+
 
 /* Footer */
