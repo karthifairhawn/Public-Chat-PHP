@@ -23,6 +23,7 @@ if(isset($_POST['name'])){
     }
 
     if($duplicate == false){
+        // $target_dir = '../img/';
 		$query="INSERT INTO `user_info`(`user_id`, `name`, `email`, `pass`) VALUES ($user_id,'$name','$email','$password')";
     	$query =  mysqli_query($conn, $query);
     	$_SESSION['user_id'] = $user_id;

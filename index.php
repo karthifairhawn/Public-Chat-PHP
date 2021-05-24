@@ -31,7 +31,14 @@ if(isset($_SESSION['user_id'])){
 			<h1>Create Account</h1>
 			<input name="name" type="text" placeholder="Name" />
 			<input name="email" type="email" placeholder="Email" />
-			<input name="password" type="password" placeholder="Password" />
+			<input name="password" type="password" placeholder="Password" />	
+			
+			<div style="position:relative;border:1px solid #dae5f7;">
+				<p style="display:flex;margin:10px 0px 0px 0px;">&nbspProfile Pic:</p>
+				<input style="margin-bottom:0;" name="profile" type="file" />
+			</div>
+			<br>
+
 			<button>Sign Up</button>
 		</form>
 	</div>
