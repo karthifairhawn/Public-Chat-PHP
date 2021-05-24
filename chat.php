@@ -41,59 +41,9 @@ $name =$name['name'];
         <!-- Header Ends -->
 
         <!-- Chat Area -->
-        <div class="chats">       
+        <div class="chats" id="chats-container">       
             
 
-            <div class=outgoing>
-                <span class="text-msg" >Hey, Good Morning</span>           
-            </div>     
-
-
-            <div class="incoming">
-                <span class="text-msg ">Hey, Good Morning</span>
-                <span class="chat-user-name">@karthifairhawn</span>
-            </div>
-            
-            <div class=outgoing>
-                <span class="text-msg" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit</span>           
-            </div>     
-
-
-            <div class="incoming">
-                <span class="text-msg ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ipsa quod. Blanditiis excepturi sed labore commodi corporis non voluptates ab recusandae similique? Minus deserunt rerum ab possimus omnis amet blanditiis!</span>
-                <span class="chat-user-name">@karthifairhawn</span>
-            </div>
-            
-            <div class=outgoing>
-                <span class="text-msg" >ab recusandae similique? Minus deserunt rerum ab possimus omnis amet blanditiis!</span>           
-            </div>     
-
-
-            <div class="incoming">
-                <span class="text-msg ">Sure!</span>
-                <span class="chat-user-name">@karthifairhawn</span>
-            </div>
-
-            <div class=outgoing>
-                <span class="text-msg">ab recusandae similique? </span>           
-            </div>    
-            
-            <div class="incoming">
-                <span class="text-msg ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ipsa quod. Blanditiis excepturi sed labore commodi corporis non voluptates ab recusandae similique? Minus deserunt rerum ab possimus omnis amet blanditiis!</span>
-                <span class="chat-user-name">@karthifairhawn</span>
-            </div>
-            
-            <div class=outgoing>
-                <span class="text-msg" >ab recusandae similique? Minus deserunt rerum ab possimus omnis amet blanditiis!</span>           
-            </div>     
-
-
-
-            <div class="incoming">
-                <span class="text-msg ">Thank you!</span>
-                <span class="chat-user-name">@karthifairhawn</span>
-            </div>
-            
             
 
         </div><hr>
@@ -110,6 +60,7 @@ $name =$name['name'];
 
     </div>
     <script src="js/chat/new_chat.js"></script>
+    <script src="js/chat/update_chat.js"></script>
 
 </body>
 </html>
